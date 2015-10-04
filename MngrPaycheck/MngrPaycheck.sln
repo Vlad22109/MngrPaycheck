@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngrPaycheck", "MngrPaycheck\MngrPaycheck.csproj", "{C1159F62-0814-4C31-82FC-598A83852119}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngrPaycheck.Common", "MngrPaycheck.Common\MngrPaycheck.Common.csproj", "{7E0E4BEA-94CC-45EC-8FB8-E57203B933B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngrPaycheck.DAL", "MngrPaycheck.DAL\MngrPaycheck.DAL.csproj", "{81E08870-6071-4E68-8B12-5B295BC7FFAF}"
@@ -10,15 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngrPaycheck.Entity", "MngrPaycheck.Entity\MngrPaycheck.Entity.csproj", "{3FEAC9D1-FD99-4B63-9B35-0F04B6BA70D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngrPaycheck.Tests", "MngrPaycheck.Tests\MngrPaycheck.Tests.csproj", "{561B005E-002C-4C51-B199-98DE284F84CA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ED25A388-4E1E-4429-956C-FA9B2040F2F0}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngrPaycheck", "MngrPaycheck\MngrPaycheck.csproj", "{C1159F62-0814-4C31-82FC-598A83852119}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +23,16 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C1159F62-0814-4C31-82FC-598A83852119}.Release|x86.ActiveCfg = Release|Any CPU
 		{7E0E4BEA-94CC-45EC-8FB8-E57203B933B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E0E4BEA-94CC-45EC-8FB8-E57203B933B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E0E4BEA-94CC-45EC-8FB8-E57203B933B2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -70,16 +73,6 @@ Global
 		{561B005E-002C-4C51-B199-98DE284F84CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{561B005E-002C-4C51-B199-98DE284F84CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{561B005E-002C-4C51-B199-98DE284F84CA}.Release|x86.ActiveCfg = Release|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{C1159F62-0814-4C31-82FC-598A83852119}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
