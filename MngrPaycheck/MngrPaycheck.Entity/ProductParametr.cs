@@ -22,7 +22,6 @@ namespace MngrPaycheck.Entity
 
         public Guid ProductTypeID { get; set; }
 
-        public Guid ProductParametrValueID { get; set; }
 
 
         #region properties

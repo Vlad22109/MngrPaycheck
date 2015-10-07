@@ -10,8 +10,11 @@ using MngrPaycheck.Entity;
 
 namespace MngrPaycheck.DAL.Context
 {
-    public class MngPaycheckContext: DbContext, IMngPaycheckContext
+    public class MngPaycheckContext: DbContext, IMngPaycheckContext, IDisposable
     {
+        public MngPaycheckContext()
+            : base("MngrPaycheckDB"){}
+
         public IDbSet<Cashier> Cashiers { get; set; }
         public IDbSet<PaymentType> PaymentTypes { get; set; }
         public IDbSet<Product> Products { get; set; }
@@ -30,9 +33,5 @@ namespace MngrPaycheck.DAL.Context
         {
             return base.Set<TEntity>();
         }
-
-        public MngPaycheckContext()
-            :base("MngrPaycheck1")
-        { }
     }
 }

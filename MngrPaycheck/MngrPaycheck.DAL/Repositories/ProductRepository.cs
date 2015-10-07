@@ -8,7 +8,7 @@ using MngrPaycheck.Entity;
 
 namespace MngrPaycheck.DAL.Repositories.Abstract
 {
-    class ProductRepository: GenericRepository<Product>, IProductRepository
+    public class ProductRepository: GenericRepository<Product>, IProductRepository
     {
         public ProductRepository(IMngPaycheckContext context) : base(context)
         {

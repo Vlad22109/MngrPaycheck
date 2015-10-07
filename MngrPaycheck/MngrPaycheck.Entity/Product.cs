@@ -34,7 +34,7 @@ namespace MngrPaycheck.Entity
 
         public string Characteristicks { get; set; }
 
-        public Guid ProductTypeID { get; set; }
+        public Guid? ProductTypeID { get; set; }
 
         #region  properties
         

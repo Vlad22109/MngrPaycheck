@@ -15,17 +15,13 @@ namespace MngrPaycheck.Entity
         }
 
         [Required] [Key]
-        public Guid Id { get; private set; }
+        public Guid Id { get; set; }
 
         public string Value { get; set; }
 
-        public Guid ProductParametrID { get; set; }
-
         public Guid ProductID { get; set; }
 
-
         #region properties
-        public virtual ProductParametr ProductParametr { get; set; }
         public virtual Product Product { get; set; }
         #endregion
     }

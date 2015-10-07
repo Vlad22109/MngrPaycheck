@@ -20,19 +20,19 @@ namespace MngrPaycheck.Entity
 
         public float SumPurchase { get; set; }
 
-        public DateTime PurchaseDate { get; private set; }
+        public DateTime PurchaseDate { get; set; }
         
         public string PurchaseAdress { get; set; }
 
         public bool Favorite { get; set; }
 
-        public Guid SupermarketID { get; set; }
+        public Guid? SupermarketID { get; set; }
         public Guid PaymentTypeID { get; set; }
 
 
         #region properties
-        public PaymentType PaymentType { get; set; }
-        public Supermarket Supermarket { get; set; }
+        public virtual PaymentType PaymentType { get; set; }
+        public virtual Supermarket Supermarket { get; set; }
         public virtual ICollection<Product> Products { get; set; } 
         #endregion
     }
